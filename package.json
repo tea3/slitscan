@@ -15,6 +15,7 @@
     "mkdirp": "^0.5.1",
     "moment": "^2.18.1",
     "node-filelist": "^1.0.0",
-    "object-assign": "^4.1.1"
+    "object-assign": "^4.1.1",
+    "probe-image-size": "^3.0.0"
   }
 }
