@@ -1,0 +1,18 @@
+projectDir: ../../sample Mov   #プロジェクトのディレクトリ
+readDir:                       #読み込む動画ファイルや画像ファイルのディレクトリ
+  - ../../sample Mov/target
+distDir: ../../sample Mov/dist #出力先のディレクトリ
+
+movToImg:
+  movieStatTime: 1         #動画を静止画として切り出す開始位置
+  movieLength: 30          #動画を静止画として切り出す長さ
+  frameRate: 30            #動画を静止画として切り出すフレームレート (例： 29.97)
+  # frameRate: 60          #フレーム補間後に切り出したいフレームレート (例 60)
+  # interpolate: 60        #フレーム補間したいフレームレート (例： 60) ※補間処理にはかなりの時間が必要です。目安: 目安: 10秒/1フレーム生成
+
+scanLine: x                #スキャン方向 (xまたはy)
+inverseScan: false         #スキャン方向を逆転させる
+reverseScan: false         #スキャン時間を逆転させる
+startPosition: 0.0         #スキャンを開始する位置 (0.0 〜 1.0)
+
+# autoDeleteTmp: true      #画像生成後、一時的なファイルを自動で削除するか否か

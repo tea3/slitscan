@@ -1,0 +1,20 @@
+{
+  "name": "slitscan",
+  "version": "1.0.0",
+  "description": "Generate slit scanned images from movies and images using node.js",
+  "main": "index.js",
+  "keywords": [
+    "slitscan"
+  ],
+  "author": "tea3",
+  "license": "ISC",
+  "dependencies": {
+    "canvas": "^1.6.5",
+    "commander": "^2.9.0",
+    "js-yaml": "^3.8.3",
+    "mkdirp": "^0.5.1",
+    "moment": "^2.18.1",
+    "node-filelist": "^1.0.0",
+    "object-assign": "^4.1.1"
+  }
+}
